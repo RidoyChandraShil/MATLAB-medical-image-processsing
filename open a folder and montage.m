@@ -4,7 +4,7 @@ fileNames = {dirOutput.name}';
 montage(fileNames, 'Size', [2 5]);
 % imwrite(fileNames, 'pout2.jpg')
 
-%% another approach
+%% another approach plus scaling
 fullfile(matlabroot,'toolbox/images/imdata')
 x=dicomread('knee1.dcm')
 y=mat2gray(x)
