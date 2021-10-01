@@ -8,6 +8,6 @@ imwrite(f, filename, 'quality', q);
 end
 
 %% imgage size comparasion
-i= imread('series_ 75.jpg');
-whos i
-imfinfo('series_ 75.jpg')
+i= imread('series_ 90.jpg'); 
+whos i % check size
+imfinfo('series_ 90.jpg')
