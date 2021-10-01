@@ -25,7 +25,7 @@ pmin = min(p(:));
 pn = mat2gray(p);
 end
 
-%% with image
+%% cropping and multiplying images
 f1=imread('shadow.tif');
 g1=imread('pout.tif');
 newf1=subim(f1,223,240,1,1);
